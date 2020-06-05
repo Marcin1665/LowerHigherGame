@@ -32,6 +32,6 @@
         android:layout_below="@id/numberEnteredEt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:text="Validate"/>
+        android:text="Sprawdź !"/>
 
 </RelativeLayout>
