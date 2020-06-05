@@ -1,7 +1,6 @@
 package com.tuszynski.lowerhighergame;
 
 import android.content.Intent;
-import android.content.SearchRecentSuggestionsProvider;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,12 +25,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        msgTv = (TextView) findViewById(R.id.msg);
-        numberEnteredEt = (EditText) findViewById(R.id.numberEnteredEt);
-        validate = (Button) findViewById(R.id.validate);
+        msgTv = findViewById(R.id.msg);
+        numberEnteredEt = findViewById(R.id.numberEnteredEt);
+        validate = findViewById(R.id.validate);
         validate.setOnClickListener(this);
-//        Intent intent = getIntent();
-//        int A = intent.getIntExtra(StartActivity.MAX_NUMBER, 2);
 
 
 
