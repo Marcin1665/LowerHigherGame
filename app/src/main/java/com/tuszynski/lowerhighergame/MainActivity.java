@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (n < numberToFind) {
             msgTv.setText(R.string.too_low);
         }
-        if (3 == numberTries){
+        if (2 == numberTries){
             Toast.makeText(this, "Niestety nie udało ci się, poprawna liczba to " + numberToFind,
                     Toast.LENGTH_SHORT).show();
             Intent intent2 = new Intent(MainActivity.this, StartActivity.class);

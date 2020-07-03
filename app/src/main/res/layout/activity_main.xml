@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="@string/start_msg"
+        android:text="@string/end_msg"
         android:textSize="22sp"
         android:textStyle="bold"/>
 
